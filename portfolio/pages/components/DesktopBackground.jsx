@@ -3,7 +3,6 @@ import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import MenuBar from './MenuBar';
 import DesktopIcons from './DesktopIcons';
-import Dock from './Dock';
 
 const DesktopBackground = () => {
   return (
@@ -11,7 +10,6 @@ const DesktopBackground = () => {
       <div className="relative min-h-screen bg-gradient-to-br from-blue-500 to-blue-700">
         <MenuBar />
         <DesktopIcons />
-        {/* <Dock /> */}
       </div>
     </DndProvider>
   );
